@@ -14,6 +14,12 @@ Download the latest pre-compiled APK directly from the official Releases page:
 * Minimum Android Version: Android 8.0 (API Level 26) or higher
 * Memory Scaling: Runs small models fully in RAM, and streams larger multi-billion parameter models from storage using dedicated memory modes.
 
+### Support Development
+
+LLM Runner is free for public use. If you would like to support development, optimization, maintenance, and hardware testing:
+
+**[Donate / Support CPU BYTE](https://cpubyte-donate.blogspot.com/)**
+
 ---
 
 ## How It Works on Android
@@ -245,7 +251,7 @@ The best model size depends on the device's RAM, storage, CPU, quantization, and
 | **4 GB**                       | 0.5B–2B                | Small quantized models with low context                                                                            |
 | **6 GB**                       | 1B–3B                  | 4B-class models with careful settings                                                                              |
 | **8 GB**                       | 2B–7B                  | Larger models using low-memory modes                                                                               |
-| **12 GB**                      | 3B–8B+                 | Larger quantized models and selected MoE workloads                                                                 |
+| **12 GB**                      | 3B–8B+                 | Larger models and selected MoE workloads                                                                           |
 | **16 GB**                      | 7B–14B+                | Larger models with offloading                                                                                      |
 | **24 GB+**                     | 14B–30B+               | Large quantized and MoE workloads                                                                                  |
 | **Very Large Storage Systems** | —                      | Experimental workloads including 70B, 100B+ and 127B-class GGUF models, subject to extreme performance constraints |
