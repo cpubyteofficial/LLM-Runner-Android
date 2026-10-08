@@ -1,6 +1,8 @@
 # LLM Runner by CPU BYTE
 
-LLM Runner is a fully local, offline GGUF inference engine and chat client engineered specifically for 64-bit Android devices (arm64-v8a). It allows users to run local language models directly on smartphone hardware without root access, terminal environments, external runtimes, or network connectivity.
+> **A fully local, offline GGUF inference engine and chat client for 64-bit Android devices.**
+
+LLM Runner is a fully local, offline GGUF inference engine and chat client engineered specifically for **64-bit Android devices (arm64-v8a)**. It allows users to run local language models directly on smartphone hardware without root access, terminal environments, external runtimes, or network connectivity.
 
 ---
 
@@ -8,17 +10,46 @@ LLM Runner is a fully local, offline GGUF inference engine and chat client engin
 
 Download the latest pre-compiled APK directly from the official Releases page:
 
-[Download LLM Runner APK (Latest Release)](https://github.com/cpubyteofficial/LLM-Runner-Android/releases/latest)
+<p align="center">
+  <a href="https://github.com/cpubyteofficial/LLM-Runner-Android/releases/latest">
+    <img src="https://img.shields.io/badge/Download%20Latest%20APK-2ea44f?style=for-the-badge&logo=android&logoColor=white" alt="Download LLM Runner APK">
+  </a>
+</p>
 
-* Target Architecture: ARM64 (arm64-v8a)
-* Minimum Android Version: Android 8.0 (API Level 26) or higher
-* Memory Scaling: Runs small models fully in RAM, and streams larger multi-billion parameter models from storage using dedicated memory modes.
+* **Target Architecture:** ARM64 (`arm64-v8a`)
+* **Minimum Android Version:** Android 8.0 (API Level 26) or higher
+* **Memory Scaling:** Runs small models fully in RAM, and streams larger multi-billion parameter models from storage using dedicated memory modes.
 
-### Support Development
+---
 
-LLM Runner is free for public use. If you would like to support development, optimization, maintenance, and hardware testing:
+## Support Development
 
-**[Donate / Support CPU BYTE](https://cpubyte-donate.blogspot.com/)**
+<p align="center">
+  <img src="https://img.shields.io/badge/100%25-Free%20%26%20Open%20Source-16a34a?style=for-the-badge" alt="Free and Open Source">
+</p>
+
+### Help Keep LLM Runner Free & Open Source
+
+LLM Runner is free for public use. If you find the project useful, you can support its continued:
+
+* Development
+* Optimization
+* Maintenance
+* Hardware testing
+* Android compatibility work
+* Large-model experimentation
+
+Your support helps keep local AI tools **free, open, private, and actively maintained**.
+
+<p align="center">
+  <a href="https://cpubyte-donate.blogspot.com/">
+    <img src="https://img.shields.io/badge/%E2%9D%A4%EF%B8%8F%20DONATE-Support%20CPU%20BYTE-16a34a?style=for-the-badge&logoColor=white" alt="Donate / Support CPU BYTE">
+  </a>
+</p>
+
+<p align="center">
+  <sub>Every contribution helps support development, optimization, maintenance, and hardware testing.</sub>
+</p>
 
 ---
 
@@ -207,10 +238,36 @@ Consequently, extremely large dense models may run at very low tokens-per-second
 
 The native engine supports a comprehensive spectrum of quantized architectures in the GGUF specification, including:
 
-* **Dense Families:** Llama (1, 2, 3, 3.1, 3.2), Qwen (Qwen, Qwen2, Qwen2.5), Gemma (1, 2, 3), Phi (Phi-2, Phi-3, Phi-3.5), Mistral, StarCoder, Command-R, Falcon, InternLM, MiniCPM, and others.
-* **MoE Families:** Mixtral (8x7B, 8x22B), Qwen2-MoE, Qwen1.5-MoE, DeepSeek-MoE / DeepSeek-V2 / V3, AMD Instella-MoE, Grok, DBRX, and Granite-MoE.
+### Dense Families
 
-Compatibility depends on the GGUF format, architecture implementation, quantization type, available device resources, and the capabilities of the native backend.
+* Llama (1, 2, 3, 3.1, 3.2)
+* Qwen
+* Qwen2
+* Qwen2.5
+* Gemma (1, 2, 3)
+* Phi (Phi-2, Phi-3, Phi-3.5)
+* Mistral
+* StarCoder
+* Command-R
+* Falcon
+* InternLM
+* MiniCPM
+* And others
+
+### MoE Families
+
+* Mixtral (8x7B, 8x22B)
+* Qwen2-MoE
+* Qwen1.5-MoE
+* DeepSeek-MoE
+* DeepSeek-V2
+* DeepSeek-V3
+* AMD Instella-MoE
+* Grok
+* DBRX
+* Granite-MoE
+
+> Compatibility depends on the GGUF format, architecture implementation, quantization type, available device resources, and the capabilities of the native backend.
 
 ---
 
@@ -228,17 +285,44 @@ Compatibility depends on the GGUF format, architecture implementation, quantizat
 
 ## Installation and Quick Start
 
-1. Download the pre-built APK from the Releases section.
-2. Install the APK on your Android device.
-3. If Android displays a security prompt, enable installation from unknown sources for the application or file manager you are using.
-4. Launch LLM Runner.
-5. Choose an option:
+### 1. Download
 
-   * **Load your model:** Select any existing `.gguf` file stored on your phone.
-   * **Download model:** Use the built-in Hub to download recommended models such as Qwen2.5-0.5B, Qwen3-0.6B, or Llama-3.2-1B directly to your device.
-6. Review the **Model Analysis** screen to see your device memory budget, estimated working set, and recommended loading mode.
-7. Select the appropriate execution mode.
-8. Tap **Load Model** and begin local inference.
+Download the latest APK from the official Releases page:
+
+<p align="center">
+  <a href="https://github.com/cpubyteofficial/LLM-Runner-Android/releases/latest">
+    <img src="https://img.shields.io/badge/Download%20APK-2ea44f?style=for-the-badge&logo=android&logoColor=white" alt="Download APK">
+  </a>
+</p>
+
+### 2. Install
+
+Install the APK on your Android device.
+
+If Android displays a security prompt, enable installation from unknown sources for the application or file manager you are using.
+
+### 3. Launch
+
+Open **LLM Runner**.
+
+### 4. Choose a Model
+
+You can either:
+
+* **Load your model:** Select any existing `.gguf` file stored on your phone.
+* **Download model:** Use the built-in Hub to download recommended models such as Qwen2.5-0.5B, Qwen3-0.6B, or Llama-3.2-1B directly to your device.
+
+### 5. Analyze
+
+Review the **Model Analysis** screen to see your device memory budget, estimated working set, and recommended loading mode.
+
+### 6. Select Execution Mode
+
+Choose the appropriate execution mode based on your device and model.
+
+### 7. Start Inference
+
+Tap **Load Model** and begin local inference.
 
 ---
 
@@ -256,7 +340,7 @@ The best model size depends on the device's RAM, storage, CPU, quantization, and
 | **24 GB+**                     | 14B–30B+               | Large quantized and MoE workloads                                                                                  |
 | **Very Large Storage Systems** | —                      | Experimental workloads including 70B, 100B+ and 127B-class GGUF models, subject to extreme performance constraints |
 
-These are general examples rather than fixed hardware limits. Actual compatibility and performance can vary substantially between devices and GGUF quantizations.
+> These are general examples rather than fixed hardware limits. Actual compatibility and performance can vary substantially between devices and GGUF quantizations.
 
 ---
 
@@ -271,10 +355,10 @@ For the best performance:
 * Use an appropriate GGUF quantization.
 * Keep context length within the available memory budget.
 * Close unnecessary background applications.
-* Use Standard mode when the model comfortably fits in RAM.
-* Use Low Memory mode when the model is close to the memory limit.
-* Use Layer-by-Layer Offload for oversized dense models.
-* Use Flash-MoE for supported MoE architectures.
+* Use **Standard mode** when the model comfortably fits in RAM.
+* Use **Low Memory mode** when the model is close to the memory limit.
+* Use **Layer-by-Layer Offload** for oversized dense models.
+* Use **Flash-MoE** for supported MoE architectures.
 * Avoid extremely large models when practical generation speed is required.
 
 ---
@@ -295,22 +379,47 @@ The built-in Model Hub requires network connectivity when searching for or downl
 
 ---
 
-## Support and Donations
+## Support CPU BYTE
 
-LLM Runner is completely free for public use.
+<div align="center">
 
-If you would like to support continuous maintenance, optimization work, development, and hardware testing, contributions are welcome through the official donation page:
+### Help Keep Local AI Free & Open
 
-**Support CPU BYTE - Official Donation Page**
+LLM Runner is **free for public use**.
 
-[Donate / Support CPU BYTE](https://cpubyte-donate.blogspot.com/)
+Your support helps CPU BYTE continue working on:
+
+**Development · Optimization · Maintenance · Hardware Testing**
+
+<br>
+
+<a href="https://cpubyte-donate.blogspot.com/">
+  <img src="https://img.shields.io/badge/%E2%9D%A4%EF%B8%8F%20DONATE-Support%20CPU%20BYTE-16a34a?style=for-the-badge&logoColor=white" alt="Donate / Support CPU BYTE">
+</a>
+
+<br><br>
+
+<sub>Thank you for helping keep local AI tools free, open, and accessible.</sub>
+
+</div>
 
 ---
 
 ## Project
 
-**LLM Runner by CPU BYTE**
+# LLM Runner by CPU BYTE
 
-Built for local AI inference on Android.
+**Built for local AI inference on Android.**
 
-**ARM64 • GGUF • Offline • Storage-Aware • Memory-Aware**
+<p align="center">
+
+`ARM64` • `GGUF` • `OFFLINE` • `STORAGE-AWARE` • `MEMORY-AWARE`
+
+</p>
+
+---
+
+<p align="center">
+  <strong>CPU BYTE</strong><br>
+  Local AI. Private AI. Your Hardware.
+</p>
