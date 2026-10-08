@@ -4,6 +4,8 @@
 
 LLM Runner is a fully local, offline GGUF inference engine and chat client engineered specifically for **64-bit Android devices (arm64-v8a)**. It allows users to run local language models directly on smartphone hardware without root access, terminal environments, external runtimes, or network connectivity.
 
+**LLM Runner is free to use for everyone.**
+
 ---
 
 ## Direct Download
@@ -25,21 +27,24 @@ Download the latest pre-compiled APK directly from the official Releases page:
 ## Support Development
 
 <p align="center">
-  <img src="https://img.shields.io/badge/100%25-Free%20%26%20Open%20Source-16a34a?style=for-the-badge" alt="Free and Open Source">
+  <img src="https://img.shields.io/badge/Free%20for%20Everyone-16a34a?style=for-the-badge" alt="Free for Everyone">
 </p>
 
-### Help Keep LLM Runner Free & Open Source
+### Help Keep LLM Runner Free for Everyone
 
-LLM Runner is free for public use. If you find the project useful, you can support its continued:
+LLM Runner is **free for everyone to use**.
+
+If you find LLM Runner useful and would like to support CPU BYTE, donations help fund:
 
 * Development
-* Optimization
+* Performance optimization
 * Maintenance
 * Hardware testing
 * Android compatibility work
 * Large-model experimentation
+* Future improvements
 
-Your support helps keep local AI tools **free, open, private, and actively maintained**.
+Your support helps us continue developing and maintaining **LLM Runner as a free-to-use local AI application**.
 
 <p align="center">
   <a href="https://cpubyte-donate.blogspot.com/">
@@ -48,7 +53,7 @@ Your support helps keep local AI tools **free, open, private, and actively maint
 </p>
 
 <p align="center">
-  <sub>Every contribution helps support development, optimization, maintenance, and hardware testing.</sub>
+  <sub>Donations are optional. LLM Runner remains free for everyone.</sub>
 </p>
 
 ---
@@ -379,29 +384,24 @@ The built-in Model Hub requires network connectivity when searching for or downl
 
 ---
 
-## Support CPU BYTE
+## Free for Everyone
 
-<div align="center">
+LLM Runner is provided **free for everyone to use**.
 
-### Help Keep Local AI Free & Open
+There is no requirement to donate in order to use the application.
 
-LLM Runner is **free for public use**.
+If you enjoy the project and want to help CPU BYTE continue development, optimization, maintenance, and hardware testing, you can optionally support the project.
 
-Your support helps CPU BYTE continue working on:
+<p align="center">
+  <a href="https://cpubyte-donate.blogspot.com/">
+    <img src="https://img.shields.io/badge/%E2%9D%A4%EF%B8%8F%20DONATE-Help%20Support%20Development-16a34a?style=for-the-badge&logoColor=white" alt="Donate">
+  </a>
+</p>
 
-**Development · Optimization · Maintenance · Hardware Testing**
-
-<br>
-
-<a href="https://cpubyte-donate.blogspot.com/">
-  <img src="https://img.shields.io/badge/%E2%9D%A4%EF%B8%8F%20DONATE-Support%20CPU%20BYTE-16a34a?style=for-the-badge&logoColor=white" alt="Donate / Support CPU BYTE">
-</a>
-
-<br><br>
-
-<sub>Thank you for helping keep local AI tools free, open, and accessible.</sub>
-
-</div>
+<p align="center">
+  <strong>Donations are completely optional.</strong><br>
+  <sub>LLM Runner remains free for everyone.</sub>
+</p>
 
 ---
 
